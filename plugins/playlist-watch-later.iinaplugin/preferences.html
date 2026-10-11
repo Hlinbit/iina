@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playlist Progress Saver</title>
+</head>
+<body>
+  <div class="pref-section">
+    <label>
+      <input type="checkbox" data-type="bool" data-pref-key="enabled">
+      Save playback position when switching playlist items
+    </label>
+    <p class="small secondary pref-help">
+      Requires IINA's "Resume last playback position" setting.
+      Applies when moving to a different playlist entry; not on normal end of
+      playback or when closing IINA. Saving positions for multiple entries may
+      change which entry mpv resumes when reopening an entire playlist.
+    </p>
+  </div>
+</body>
+</html>
