@@ -1,0 +1,15 @@
+{
+  "name": "Playlist Progress Saver",
+  "identifier": "io.github.hlinbit.iina.playlist-progress-saver",
+  "version": "0.1.0",
+  "description": "Save a video's resume position when manually switching playlist entries, without changing IINA's default behavior.",
+  "author": {
+    "name": "Hlinbit",
+    "url": "https://github.com/Hlinbit"
+  },
+  "entry": "main.js",
+  "preferencesPage": "preferences.html",
+  "preferenceDefaults": {
+    "enabled": true
+  }
+}
